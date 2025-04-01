@@ -1,0 +1,195 @@
+﻿*{margin:0;padding:0;}
+body {
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-family:"微软雅黑";
+}
+.scrollpic {
+	width: 1100px;
+	margin:40px auto 0 auto;
+	position:relative;
+}
+#myscroll {
+	display: block;
+	width: 100%;
+	position: relative;
+	height: 270px;
+	overflow: hidden;
+}
+#myscroll #myscrollbox {
+	display: block;
+	float: left;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 2400px;
+}
+#myscroll ul {
+	display: block;
+	float: left;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#myscroll ul li {
+	display: block;
+	float: left;
+	padding: 0;
+	width:280px;
+}
+#myscroll ul li a {
+	display: block;
+	float: left;
+	width: 260px;
+	padding: 0;
+	position: relative;
+	height: 270px;
+	color: #333;
+}
+#myscroll a .intro {
+	position: absolute;
+	left: 0;
+	z-index: 10;
+	background-color: rgba(0,0,0,0.6);
+	/*filter: alpha(opacity=70);*/
+	width: 260px;
+	color: #fff;
+	/*-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;*/
+	text-align: center;
+	height:341px;
+}
+#myscroll a .intro h5 {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	height: 70px;
+	width: 260px;
+	line-height: 70px;
+	/*border-bottom: 1px solid #347fdc;*/
+	font-weight:100;
+	background:rgba(51,51,51,0.5);
+}
+#myscroll a .intro p {
+	font-size: 18px;
+	line-height: 20px;
+	/*margin: 65px 70px;*/
+	overflow: hidden;
+	color:#eeeeee;
+	text-align:center;
+	line-height:30px;
+}
+#myscroll a .intro h3{
+	margin-top:20px;
+	color:#eeeeee;
+	display:inline-block;
+	width:120px;
+	height:30px;
+	line-height:30px;
+	border-radius:16px;
+	border:1px solid #eeeeee;
+	font-size:17px;
+}
+#myscroll a .intro h2{
+	text-transform:uppercase;
+	color:#fff;
+	text-align:center;
+	font-size:20px;
+	height:72px;
+	line-height:72px;
+	overflow:hidden;
+	display:inline-block;width:100%;
+}
+#myscroll a .intro {
+	bottom: -271px;
+}
+#myscroll a:hover .intro {
+	bottom:0px;
+}
+#mybtns {
+	margin: 10px 0;
+	width: 1100px;
+	display: block;
+	/*height: 42px;*/
+}
+#mybtns a {
+	width: 42px;
+	height: 42px;
+	display: block;
+	float: right;
+	margin-right: 1px;
+	background-color: #c1c1c1;
+	
+}
+#mybtns a:hover {
+	background-color: #e6cf00;
+}
+#mybtns a:hover, #myscroll, #mybtns a, #myscroll a:hover .intro, #myscroll a .intro, #myscroll #myscrollbox {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+#mybtns #left {
+	background-image: url(../images/jt_l.png);
+	position:absolute;left:-42px;top:120px;
+}
+#mybtns #right {
+	background-image: url(../images/jt_r.png);
+	position:absolute;right:-42px;top:120px;
+}
+
+#kinMaxShow {
+	visibility: hidden;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+body{margin:0;padding:0; font-size:12px; font-family:"宋体";}
+		/*重置浏览器默认样式*/
+		h1,h2,h3,h4,h5,h6,b,p,i,img,ul,li,dl,dt,dd,form,label,input,button{margin:0; padding:0; list-style:none; outline:none;}
+		/*公共样式*/
+		a:link,a:visited{color:#3E3E3E; text-decoration:none;}
+		a:hover{color:#FF0; }
+		h3{font-size:14px; font-family:"华文仿宋"; }
+		/*nav*/
+		#nav{width:100%; height:30px; border:1px solid #eeeeee;  }
+		.nav-bd{width:100%; height:20px; line-height:10px; margin:0 auto; padding-top:10px; background:white;}
+        .login{margin-left: 20%;}
+		
+
+         .fixed {
+		      position: fixed;
+		      top: 0;
+		      left: 0;
+		      z-index: 999;
+		    }
+			
+			
+			.qtimages-img{
+			     width:380px;
+				 height:60px;
+				 padding-left:10px;
+				 
+				 top:20px;
+				 left:20px;
+				 
+			}
+			
+			.zhuxuewang{
+			  float:left;
+			  margin-top:5px;
+			  font-size:30px;
+			  color:#f98be0;
+			 
+			 
+			}
+				.zhuxuewang1{
+			  float:left;
+			  
+			  
+			}
